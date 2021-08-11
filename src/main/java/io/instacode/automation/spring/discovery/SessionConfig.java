@@ -1,4 +1,4 @@
-package io.instacode.automation.spring.cloud.discovery;
+package io.instacode.automation.spring.discovery;
 
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 import org.springframework.session.web.context.AbstractHttpSessionApplicationInitializer;

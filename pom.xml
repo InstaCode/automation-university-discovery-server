@@ -60,4 +60,22 @@
         <spring-cloud-dependencies.version>Hoxton.SR12</spring-cloud-dependencies.version>
     </properties>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <addResources>true</addResources>
+                </configuration>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <mainClass>io.instacode.automation.spring.discovery.DiscoveryApplication</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

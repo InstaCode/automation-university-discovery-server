@@ -1,4 +1,4 @@
-package io.instacode.automation.spring.cloud.discovery;
+package io.instacode.automation.spring.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

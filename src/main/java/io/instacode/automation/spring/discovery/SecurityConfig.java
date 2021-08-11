@@ -1,4 +1,4 @@
-package io.instacode.automation.spring.cloud.discovery;
+package io.instacode.automation.spring.discovery;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
